@@ -30,3 +30,9 @@ From sonar API
 ```
 ./goScan --mode MS --target TLD
 ```
+
+## TO DO
+
+- Remake the structure
+- Add more APIs
+- Improve all modes
