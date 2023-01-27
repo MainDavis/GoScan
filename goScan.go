@@ -1253,7 +1253,7 @@ func iPv4RangeToCIDRRange(ipStart string, ipEnd string) (cidrs []string, err err
 	return cidrs, err
 }
 
-//Convert IPv4 to uint32
+// Convert IPv4 to uint32
 func iPv4ToUint32(iPv4 string) uint32 {
 
 	ipOctets := [4]uint64{}
@@ -1267,7 +1267,7 @@ func iPv4ToUint32(iPv4 string) uint32 {
 	return uint32(result)
 }
 
-//Convert uint32 to IP
+// Convert uint32 to IP
 func uInt32ToIPv4(iPuInt32 uint32) (iP string) {
 	iP = fmt.Sprintf("%d.%d.%d.%d",
 		iPuInt32>>24,
